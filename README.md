@@ -45,14 +45,18 @@ To use the C++ application, follow these steps:
 
 To use the Python script, follow these steps:
 
-1. Install the required Python dependencies by running the following command:
+1. Install the required c++ dependencies:
    ```
-   pip install opencv-python
+   OpenCV for c++
    ```
 
 2. Run the `data_aug_multi.py` script with the appropriate command-line arguments, specifying the input image directory and the output directory for augmented images.
 
 Please note that both the C++ application and the Python script expect a directory containing input images and will generate the augmented images in the specified output directory.
+
+3. ```
+   python data_aug_multi.py --src "Where your images are" --dst "Where yo want to save your images" 
+   ```
 
 ## Acknowledgements
 
