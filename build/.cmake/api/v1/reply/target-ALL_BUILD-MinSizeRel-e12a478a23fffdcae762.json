@@ -1,0 +1,36 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"E:/Libraries/dlib-19.24/dlib-19.24/dlib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "dlib::@d05cc84ceee0d012af9a"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@d05cc84ceee0d012af9a",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "dlib_build/dlib",
+		"source" : "E:/Libraries/dlib-19.24/dlib-19.24/dlib"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

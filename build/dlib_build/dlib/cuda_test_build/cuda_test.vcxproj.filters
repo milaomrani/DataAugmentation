@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Libraries\dlib-19.24\dlib-19.24\dlib\cmake_utils\test_for_cuda\cuda_test.cu">
+      <Filter>Source Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Libraries\dlib-19.24\dlib-19.24\dlib\cmake_utils\test_for_cuda\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="E:\C++_project\DataAugmentation\build\dlib_build\dlib\cuda_test_build\CMakeFiles\cuda_test.dir\$(Configuration)\cuda_test_generated_cuda_test.cu.obj">
+      <Filter>Object Files</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Object Files">
+      <UniqueIdentifier>{697886CF-DDA0-36A7-8E66-B48D20506AB0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F65B98FA-FE08-3275-B615-53C4DCB003A1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

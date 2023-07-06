@@ -1,0 +1,74 @@
+Determining if the function sgemm_ exists failed with the following output:
+Change Dir: E:/C++_project/DataAugmentation/build/CMakeFiles/CMakeScratch/TryCompile-ntj5pr
+
+Run Build Command(s):E:/Software/vstudio/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_687fa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=sgemm_ /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_687fa.dir\Debug\\" /Fd"cmTC_687fa.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\C++_project\DataAugmentation\build\CMakeFiles\CMakeScratch\TryCompile-ntj5pr\CheckFunctionExists.c"
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol sgemm_ referenced in function main [E:\C++_project\DataAugmentation\build\CMakeFiles\CMakeScratch\TryCompile-ntj5pr\cmTC_687fa.vcxproj]
+E:\C++_project\DataAugmentation\build\CMakeFiles\CMakeScratch\TryCompile-ntj5pr\Debug\cmTC_687fa.exe : fatal error LNK1120: 1 unresolved externals [E:\C++_project\DataAugmentation\build\CMakeFiles\CMakeScratch\TryCompile-ntj5pr\cmTC_687fa.vcxproj]
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: E:/C++_project/DataAugmentation/build/CMakeFiles/CMakeScratch/TryCompile-m3uqfr
+
+Run Build Command(s):E:/Software/vstudio/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_f12fe.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+  src.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_f12fe.dir\Debug\\" /Fd"cmTC_f12fe.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\C++_project\DataAugmentation\build\CMakeFiles\CMakeScratch\TryCompile-m3uqfr\src.c"
+E:\C++_project\DataAugmentation\build\CMakeFiles\CMakeScratch\TryCompile-m3uqfr\src.c(1,10): fatal  error C1083: Cannot open include file: 'pthread.h': No such file or directory [E:\C++_project\DataAugmentation\build\CMakeFiles\CMakeScratch\TryCompile-m3uqfr\cmTC_f12fe.vcxproj]
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: E:/C++_project/DataAugmentation/build/CMakeFiles/CMakeScratch/TryCompile-psj2jq
+
+Run Build Command(s):E:/Software/vstudio/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_d356e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d356e.dir\Debug\\" /Fd"cmTC_d356e.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\C++_project\DataAugmentation\build\CMakeFiles\CMakeScratch\TryCompile-psj2jq\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [E:\C++_project\DataAugmentation\build\CMakeFiles\CMakeScratch\TryCompile-psj2jq\cmTC_d356e.vcxproj]
+
+
+
+Determining if the function pthread_create exists in the pthread failed with the following output:
+Change Dir: E:/C++_project/DataAugmentation/build/CMakeFiles/CMakeScratch/TryCompile-gm2zow
+
+Run Build Command(s):E:/Software/vstudio/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_46bbb.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:m && MSBuild version 17.6.3+07e294721 for .NET Framework
+
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.36.32532 for x64
+  CheckFunctionExists.c
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46bbb.dir\Debug\\" /Fd"cmTC_46bbb.dir\Debug\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "E:\C++_project\DataAugmentation\build\CMakeFiles\CMakeScratch\TryCompile-gm2zow\CheckFunctionExists.c"
+LINK : fatal error LNK1104: cannot open file 'pthread.lib' [E:\C++_project\DataAugmentation\build\CMakeFiles\CMakeScratch\TryCompile-gm2zow\cmTC_46bbb.vcxproj]
+
+
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-MSBuild"
+	BuildStamp="20230705-1253-Experimental"
+	Name="Sepid-Desktop"
+	Generator="ctest-3.25.1"
+	CompilerName="E:/Software/vstudio/VC/Tools/MSVC/14.36.32532/bin/Hostx86/x64/cl.exe"
+	CompilerVersion="19.36.32532.0"
+	OSName="Windows"
+	Hostname="Sepid-Desktop"
+	OSRelease=" Professional"
+	OSVersion=" (Build 22621)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="8"
+	TotalVirtualMemory="30360"
+	TotalPhysicalMemory="16222"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="3000"
+	>
+	<Testing>
+		<StartDateTime>Jul 05 09:13 Eastern Summer Time</StartDateTime>
+		<StartTestTime>1688562815</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jul 05 09:13 Eastern Summer Time</EndDateTime>
+		<EndTestTime>1688562815</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

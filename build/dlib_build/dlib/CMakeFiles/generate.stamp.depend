@@ -1,0 +1,19 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindJPEG.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPNG.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindZLIB.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/SelectLibraryConfigurations.cmake
+E:/Libraries/dlib-19.24/dlib-19.24/dlib/CMakeLists.txt
+E:/Libraries/dlib-19.24/dlib-19.24/dlib/cmake_utils/check_if_neon_available.cmake
+E:/Libraries/dlib-19.24/dlib-19.24/dlib/cmake_utils/find_libjpeg.cmake
+E:/Libraries/dlib-19.24/dlib-19.24/dlib/cmake_utils/find_libpng.cmake
+E:/Libraries/dlib-19.24/dlib-19.24/dlib/cmake_utils/release_build_by_default
+E:/Libraries/dlib-19.24/dlib-19.24/dlib/cmake_utils/set_compiler_specific_options.cmake
+E:/Libraries/dlib-19.24/dlib-19.24/dlib/cmake_utils/use_cpp_11.cmake

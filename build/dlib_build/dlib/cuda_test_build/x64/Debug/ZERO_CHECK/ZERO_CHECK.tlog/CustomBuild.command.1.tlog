@@ -1,0 +1,10 @@
+^E:\C++_PROJECT\DATAAUGMENTATION\BUILD\DLIB_BUILD\DLIB\CUDA_TEST_BUILD\CMAKEFILES\4B5F7427D721AC2CD1BBAC8228239840\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Libraries/dlib-19.24/dlib-19.24/dlib/cmake_utils/test_for_cuda -BE:/C++_project/DataAugmentation/build/dlib_build/dlib/cuda_test_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/C++_project/DataAugmentation/build/dlib_build/dlib/cuda_test_build/cuda_test.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,31 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindCUDA.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindCUDA/run_nvcc.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindCUDA/select_compute_arch.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake
+E:/C++_project/DataAugmentation/build/CMakeFiles/3.25.1/CMakeCCompiler.cmake
+E:/C++_project/DataAugmentation/build/CMakeFiles/3.25.1/CMakeCXXCompiler.cmake
+E:/C++_project/DataAugmentation/build/CMakeFiles/3.25.1/CMakeRCCompiler.cmake
+E:/C++_project/DataAugmentation/build/CMakeFiles/3.25.1/CMakeSystem.cmake
+E:/C++_project/DataAugmentation/build/dlib_build/dlib/cuda_test_build/CMakeFiles/cuda_test.dir/cuda_test_generated_cuda_test.cu.obj.cmake.pre-gen
+E:/C++_project/DataAugmentation/build/dlib_build/dlib/cuda_test_build/CMakeFiles/cuda_test.dir/cuda_test_generated_cuda_test.cu.obj.depend
+E:/Libraries/dlib-19.24/dlib-19.24/dlib/cmake_utils/test_for_cuda/CMakeLists.txt
